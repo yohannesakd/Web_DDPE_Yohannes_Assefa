@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Life Hacks">
+        <meta name="keywords" content="HTML, Table">
+        <meta name="author" content="Yohannes Assefa">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Neqa Neqa</title>
+        <style>
+            html{
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <table align="center">
+            <tr>
+                <td width="960px">
+                    <img
+                        width="60px"
+                        src="../resources/images/logo_gold.png"
+                        alt="Company Logo"
+                    />
+                </td>
+                <td width="480px" align="right">
+                    <a href="#">Podcasts</a>
+                    <span>|</span>
+                    <a href="#">Articles</a>
+                    <span>|</span>
+                    <a href="#">Ideas</a>
+                    <span>|</span>
+                    <a href="./signin.html">Sign in</a>
+                    <span>|</span>
+                    <a href="./register.html">Register</a>
+                </td>
+            </tr>
+        </table>
+        <hr />
+        <table align="center">
+            <tr>
+                <td width="960px" valign="top">
+                    <h1>Signin</h1>
+                    <form action="./signin.html">
+                        <label for="fullname">Full Name</label>
+                        <br>
+                        <input type="text" name="fullname" id="fullname" maxlength="50" size="50%" required >
+                        <br>
+                        <label for="phone">Phone</label>
+                        <br>
+                        <input type="tel" name="phone" id="phone" size="50%" required >
+                        <br>
+                        <label for="age">Age</label>
+                        <br>
+                        <input type="number" min="18" max="100">
+                        <br>
+                        <label for="color">Your Favourite Color</label>
+                        <br>
+                        <input type="color" name="color" id="color">
+                        <br>
+                        <label for="bdate">Birth Date</label>
+                        <br>
+                        <input type="date" name="bdate" id="bdate" >
+                        <br>
+                        <label for="gender">Gender</label>
+                        <br>
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female">
+                        <label for="male">Female</label>
+                        <input type="radio" name="gender" id="female">
+                        <br><br>
+                        <label for="password">Password</label>
+                        <br>
+                        <input type="password" name="password" id="password" size="50%">
+                        <br>
+                        <label for="password">Confirm Password</label>
+                        <br>
+                        <input type="password" name="password" id="password" size="50%">
+                        <br>
+                        <label for="skills">
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="skills" id="HTML">
+                                    <label for="HTML">HTML</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="skills" id="CSS">
+                                    <label for="CSS">CSS</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="skills" id="Javascript">
+                                    <label for="Javascript">Javascript</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="skills" id="PHP">
+                                    <label for="PHP">PHP</label>
+                                </li>
+                            </ul>
+                        </label>
+                        <br>
+                        <label for="country">Country</label>
+                        <br>
+                        <select name="country" id="country">
+                            <option value="ethiopia">Ethiopia</option>
+                            <option value="kenya">Kenya</option>
+                            <option value="sudan">Sudan</option>
+                            <option value="somalia">Somalia</option>
+                            <option value="Eritrea">Eritrea</option>
+                        </select>
+                        <br>
+                        <label for="photo">Photo</label>
+                        <br>
+                        <input type="file">
+                        <br>
+                        <label for="essay">Describe Yourself</label>
+                        <br>
+                        <textarea name="essay" id="essay" cols="50" rows="10"></textarea>
+                        <br>
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </form>
+                    <td valign="top" >
+                        <h1>Recent Posts</h1>
+                        <ul>
+                            <li>
+                                <h2>Articles</h2>
+                                <ul>
+                                    <li>
+                                        The Importance of Goals, Especially During
+                                        Difficult Times
+                                    </li>
+                                    <li>
+                                        5 Steps to Discovering your life purpose in
+                                        2022!
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <h2>Ideas</h2>
+                                <ul>
+                                    <li>10 Books to read in the Fall</li>
+                                    <li>Top Web Development project ideas</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <h2>Most Viewed Articles</h2>
+                        <ol>
+                            <li>
+                                Instant Gratification is Stopping you from reaching
+                                your Goals
+                            </li>
+                            <li>Stop juggling between work and life</li>
+                        </ol>
+                        <h2>IP Project Winners</h2>
+                        <pre>
+    ----------------------------------
+    Rank Award
+    ----------------------------------
+    First Free hosting and support
+    Second 5GB Mobile Data
+    Third 1GB Mobile Data
+    ----------------------------------
+                        </pre>
+                    </td>
+                </td>
+            </tr>
+                <tr>
+                    <td colspan="2"><hr></td>
+                </tr>
+                <tr>
+                    <td>Follow Us On: <a href="">Facebook</a> | <a href="">Twitter</a></td>
+                    <td align="right"><a href="">Privacy</a> | <a href="">Terms of Use</a></td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="2">
+                        <p id="bottom">Copyright © AASTU SEng 2021, All Rights Reserved</p>
+                    </td>
+                </tr>
+            </tr>
+        </table>
+    </body>
+</html>

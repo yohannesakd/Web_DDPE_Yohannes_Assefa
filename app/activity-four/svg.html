@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="SVG">
+  <meta name="keywords" content="HTML">
+  <meta name="author" content="Yohannes Assefa">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVG</title>
+</head>
+<body>
+    <h2>Vectors</h2>
+    <svg width = "200" height="300">
+        <ellipse cx="100" cy="100" rx="55" ry="85" fill="url(#grad1)"/>
+            <text fill="#fff" font-size="45" font-family="Arial" x="65" y="85">Moi</text>
+            <defs>
+                <linearGradient id="grad1" x1=50% y1="20%" x2="70%" y2="60%">
+                    <stop offset="0%" style="stop-color:rgb(10, 10, 100); stop-opacity:1;"></stop>
+                    <stop offset="100%" style="stop-color:rgb(255, 0, 0); stop-opacity:1;"></stop>
+                </linearGradient>
+            </defs>
+    </svg>
+    <br />
+    <svg height="400" width="400">
+      <defs>
+        <linearGradient id="gr1" x1="0%" y1="60%" x2="100%" y2="0%">
+          <stop
+            offset="20%"
+            style="stop-color: rgb(9, 255, 0); stop-opacity: 1"
+          />
+          <stop
+            offset="90%"
+            style="stop-color: rgb(255, 0, 0); stop-opacity: 1"
+          />
+        </linearGradient>
+      </defs>
+      <ellipse cx="125" cy="150" rx="100" ry="60" fill="url(#gr1)" />
+      Sorry but this browser does not support inline SVG.
+    </svg>
+    <svg height="300" width="600">
+      <polyline
+        points="1,10 60,60 100,110 70,120 240,225 270,310"
+        style="fill: none; stroke: rgb(247, 0, 255); stroke-width: 4"
+      />
+      Sorry but this browser does not support inline SVG.
+    </svg>
+    <br>
+    <svg height="300" width="300">
+      <ellipse
+        cx="150"
+        cy="100"
+        rx="120"
+        ry="70"
+        style="fill: rgb(27, 165, 27); stroke: rgb(23, 0, 128); stroke-width: 8"
+      />
+      Sorry but this browser does not support inline SVG.
+    </svg>
+    
+    
+</body>
+</html>
