@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Life Hacks">
+        <meta name="keywords" content="HTML, Table">
+        <meta name="author" content="Yohannes Assefa">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Neqa Neqa</title>
+        <style>
+            html{
+                /* font-size: 20px; */
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .modal-bg{
+                position: absolute;
+                inset: 0;
+                background-color: rgba(100, 100, 100, 0.5);
+            }
+            .modal{
+                background: white;
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                padding: 3rem;
+                border-radius: 0.5rem;
+                box-shadow: 1px 1px 25px 1px;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+            .modal-button{
+                margin: 0 auto;
+                padding: 0.5rem 1rem;
+                background-color: black;
+                color: white;
+                font-weight: 600;
+                border-radius: 0.25rem;
+            }
+            .hidden{
+                display: none;
+            }
+            table, tr, td{
+                border: 1px solid black;
+            }
+            .button-container{
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                justify-content: center;
+            }
+            .btn{
+                padding: 0.5rem 1rem;
+                font-size: 1.25rem;
+                background-color: grey;
+                font-weight: 600;
+            }
+        </style>
+    </head>
+    <body>
+        <table align="center">
+            <tr>
+                <td width="960px">
+                    <img
+                        width="60px"
+                        src="../../resources/images/logo_gold.png"
+                        alt="Company Logo"
+                    />
+                </td>
+                <td width="480px" align="right">
+                    <a href="#">Podcasts</a>
+                    <span>|</span>
+                    <a href="#">Articles</a>
+                    <span>|</span>
+                    <a href="#">Ideas</a>
+                    <span>|</span>
+                    <a href="./auth/signin.html">Sign in</a>
+                    <span>|</span>
+                    <a href="./auth/register.html">Register</a>
+                </td>
+            </tr>
+        </table>
+        <hr />
+        <table align="center">
+            <tr>
+                <td width="960px"></td>
+                <td width="480px" align="right">
+                    <a href="#bottom">Go to Bottom</a>
+                </td>
+            </tr>
+            <tr>
+                <td width="960px">
+                    <h1>Eric Hoffer and the Power of Self-Education</h1>
+                    <img
+                        width="940px"
+                        src="../../resources/images/banners/life1.jpg"
+                        alt="Man looking at sunset from a cliff"
+                        usemap="#image-map"
+                    />
+                    <map name="image-map">
+                        <area target="" alt="Nature" title="Nature" href="https://www.nature.com" coords="1,192,290,246,481,194,543,196,525,280,516,370,433,395,429,430,4,432" shape="poly">
+                        <area target="" alt="Person" title="Person" href="https://thispersondoesnotexist.com/" coords="727,161,32" shape="circle">
+                        <area target="" alt="Bag" title="Bag" href="https://www.ebags.com/" coords="789,199,818,208,842,264,836,356,779,357,765,217" shape="poly">
+                    </map>
+                    <p>
+                        I recently read The True Believer by Eric Hoffer. It’s a
+                        book about how mass movements evolve. With a lot of
+                        historical examples, the book explains the patterns and
+                        common threads among them. It’s an insightful book and
+                        reading it was a great learning experience for me.
+                    </p>
+                    <p>
+                        <img
+                            src=""
+                            alt="The True Believer Book Cover"
+                            width="120px"
+                            height="100px"
+                            align="left"
+                            
+                        />
+                        What I’d like to share with you here is not the content
+                        of the book, though. Instead, I’d like to share with you
+                        about the author.  
+                        <br>
+                        You see, I didn’t know about Eric
+                        Hoffer before. But I imagined he must be a famous
+                        professor from a well-known university. I mean, what
+                        else could explain the depth of his insights? The True
+                        Believer is an influential book. Here is how
+                            <a href="www.wikipedia.com">Wikipedia</a> put it...
+                            <a href="#">read more</a> 
+                    </p>
+                    <hr>
+                    <td valign="top" >
+                            <h1>Recent Posts</h1>   
+                                    <details>
+                                        <summary>Articles</summary>
+                                        <ul>
+                                            <li>
+                                                The Importance of Goals, Especially During
+                                                Difficult Times
+                                            </li>
+                                            <li>
+                                                5 Steps to Discovering your life purpose in
+                                                2022!
+                                            </li>
+                                        </ul>
+                                </details>
+                                    <details>
+                                        <summary>Ideas</summary>
+                                        <ul>
+                                            <li>10 Books to read in the Fall</li>
+                                            <li>Top Web Development project ideas</li>
+                                        </ul>
+                                </details>
+                                 <h2>Most Viewed Articles</h2>
+                                <ol>
+                                    <li>
+                                        Instant Gratification is Stopping you from reaching
+                                        your Goals
+                                    </li>
+                                    <li>Stop juggling between work and life</li>
+                                </ol>
+                        <h2>IP Project Winners</h2>
+                        <pre>
+    ----------------------------------
+    Rank Award
+    ----------------------------------
+    First Free hosting and support
+    Second 5GB Mobile Data
+    Third 1GB Mobile Data
+    ----------------------------------
+                        </pre>
+
+
+
+                    </td>
+                </td>
+            </tr>
+            <tr>
+                <td class="media-container">
+                    <h2>New Podcast</h2>
+                    <h1>Jack Ma - How I Overcame Failure</h1>
+                    <div class="container-one">
+                        <p>lorem</p>
+                        <audio controls="controls" id="audio">
+                            <source
+                                src="../../resources/audio/JackMa-HowIOvercameFailure.mp3"
+                            />
+                        </audio>
+                    </div>
+                    <hr>
+                    <h2>Pick of the Week</h2>
+                    <h1>24 Hours a Day</h1>
+                    <div class="container-two">
+                        <video id="video" width="960px" controls = "controls" src="../../resources/video/24_HOURS.mp4"></video>
+                    </div>
+                </td>
+                <td class="button-container">
+                    <button type="button" class="btn" id="swap">Swap the Media Elements</button>
+                    <button type="button" class="btn" id="delete">Delete audio</button>
+                    <button type="button" class="btn" id="add">Add Audio</button>
+                </td>
+                <tr>
+                    <td colspan="2"><hr></td>
+                </tr>
+                <tr>
+                    <td>Follow Us On: <a href="">Facebook</a> | <a href="">Twitter</a></td>
+                    <td align="right"><a href="">Privacy</a> | <a href="">Terms of Use</a></td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="2">
+                        <p id="bottom">Copyright © AASTU SEng 2021, All Rights Reserved</p>
+                    </td>
+                </tr>
+            </tr>
+        </table>
+        <div class = "modal-bg hidden">
+        </div>
+        <div class="modal hidden">
+            <h2>Do you really want to see the video? Press the button</h2>
+            <button class="modal-button">Press this</button>
+        </div>
+    </body>
+    <script src="main.js"></script>
+</html>
